@@ -1,5 +1,38 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import "./common/reset.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
 
+@import "./pages/index.scss";
+@import "./pages/product.scss";
 
-@import './pages/index.scss';
+$theme-colors: (
+  "primary": #916000,
+  "dark-gray": #8d8d8d,
+  "light-gray": #e0e0e0,
+  "dark-brown": #916019,
+  "light-brown": #ac8a46,
+  "white": #ffffff,
+  "dark": #000000,
+);
+// scss-docs-end theme-colors-map
+// Required
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";

@@ -1,0 +1,13 @@
+$base-path: "/vite/assets/";
+
+.banner {
+  background-image: url("#{$base-path}image/index/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 870px;
+}
+
+.banner-item {
+  width: 445px;
+}
