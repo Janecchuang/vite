@@ -43,7 +43,7 @@ $base-path: "/vite/assets/";
 }
 
 .content-2-img {
-  background: url("#{$base-path}image/index/香水2.png") no-repeat center 30% /
+  background: url("#{$base-path}image/index/Gabrielle.jpg") no-repeat center 30% /
     cover;
   height: 350px;
   @media (min-width: 992px) {
@@ -116,7 +116,7 @@ $base-path: "/vite/assets/";
 
 .form-detail {
   @media (min-width: 992px) {
-    height: 600px;
+    height: 376px;
   }
 }
 
