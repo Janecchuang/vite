@@ -61,3 +61,13 @@ $base-path: "/vite/assets/";
   }
 }
 
+.page-a {
+  font: normal normal normal 20px/30px SF Pro Text;
+  color: black;
+}
+
+.page-a:hover {
+  text-decoration: underline !important;
+  color: #AC8A46;
+}
+

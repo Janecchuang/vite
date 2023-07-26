@@ -16,6 +16,8 @@ $theme-colors: (
 );
 
 @import "bootstrap/scss/bootstrap";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+// @import "bootstrap-icons/font/bootstrap-icons.css"
 // scss-docs-end theme-colors-map
 // Required
 // @import "bootstrap/scss/functions";
