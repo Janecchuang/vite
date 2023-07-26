@@ -73,8 +73,10 @@ $base-path: "/vite/assets/";
   border-radius: 30px;
   opacity: 1;
   padding: 4px 31px 4px 31px;
+  line-height: 40px;
   @media (min-width: 992px) {
     padding: 13px 40px 13px 40px;
+    line-height: 30px;
   }
 }
 

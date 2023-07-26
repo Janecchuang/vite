@@ -11,46 +11,7 @@
 </head>
 
 <body>
-  <!-- <%- include('./layout/header'); -%> -->
-  <header class="justify-content-between align-items-center">
-    <div class="container-md d-flex justify-content-between align-items-center pt-3 pb-3">
-      <h1>
-        <img src="../assets/image/index/logo.png" alt="logo">
-      </h1>
-      <ul class="d-lg-flex mb-3 mt-3 d-none">
-        <li class="list list-unstyled text-dark-gray">
-          <a class="link-dark-gray d-flex justify-content-center align-items-center text-decoration-none" href="#">
-            <span class="material-symbols-outlined text-dark-gray">storefront</span>
-            <span class="text-dark-gray me-4 ">Product</span>
-          </a>
-        </li>
-        <li class="list list-unstyled text-dark-gray">
-          <a class="link-dark-gray d-flex justify-content-center align-items-center text-decoration-none" href="#">
-            <span class="material-symbols-outlined text-dark-gray">
-              person
-            </span>
-            <span class="text-dark-gray me-4">log in</span>
-          </a>
-        </li>
-        <li class="list list-unstyled text-dark-gray">
-          <a class="link-dark-gray d-flex justify-content-center align-items-center text-decoration-none" href="#">
-            <span class="material-symbols-outlined text-dark-gray">
-              favorite
-            </span>
-            <span class="text-dark-gray me-4">Wishlist</span>
-          </a>
-        </li>
-        <li class="list list-unstyled text-dark-gray">
-          <a class="link-dark-gray d-flex justify-content-center align-items-center text-decoration-none" href="#">
-            <span class="material-symbols-outlined text-dark-gray">
-              shopping_cart
-            </span>
-            <span class="text-dark-gray me-4">Cart(3)</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
+  <%- include('./layout/header'); -%>
   <div class="banner">
     <div class="container-md d-flex justify-content-end align-items-center h-100">
       <div class="banner-item">
@@ -166,20 +127,6 @@
       
     </div>
   </div>
-  <footer class="footer-img">
-    <div class="container-md row  d-flex align-items-center align-items-lg-end form-detail mx-auto">
-      <div class="col-lg-4 col-12">
-        <h2 class="text-dark-gray">記得<br />
-          訂閱以獲取更多資訊！</h2>
-        <form class="row footer-form">
-          <input type="email" class="col-8" placeholder="Your email address" />
-          <div class="text-white bg-dark-brown col-4 align-items-center d-flex justify-content-center" style="border: 2px solid #916000;">
-            <span>Subscribe</span>
-          </div>
-        </form>
-      </div>
-    </div>
-  </footer>
   <%- include('./layout/footer'); -%>
   <script type="module" src="../main.js"></script>
 </body>

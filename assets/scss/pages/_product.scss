@@ -6,7 +6,10 @@ $base-path: "/vite/assets/";
     
   }
   &-img{
-    height: 255px;
+    height: 165px;
+    @media (min-width: 992px) {
+      height: 255px;
+    }
     &-01{
       background: url("#{$base-path}image/product/products1.jpg");
       background-position: center 60%;
@@ -57,3 +60,4 @@ $base-path: "/vite/assets/";
     color: var(--bs-dark-brown);
   }
 }
+
