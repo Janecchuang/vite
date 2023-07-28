@@ -144,3 +144,14 @@ $base-path: "/vite/assets/";
   color: #ffffff;
   font-size: 1.5rem;
 }
+
+.transform:hover {
+  // 秒數
+  transition: .1s;
+  // 方向
+  transform: translateY(-50px);
+}
+
+.soldOut {
+  cursor: pointer;
+}

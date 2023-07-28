@@ -84,7 +84,7 @@
   <div class="bg-light-gray">
     <div class="container-md">
       <ul class="row d-flex ps-0 py-5">
-        <li class="list-unstyled col-lg-4 col-12">
+        <li class="list-unstyled col-lg-4 col-12 transform">
           <a href="#" class="display-img">
             <img src="../assets/image/index/poppy.png" alt="" class="d-block w-100">
           </a>
@@ -93,7 +93,7 @@
           <span class="me-4 me-md-8">NT$1,380</span><span
             class="text-decoration-line-through text-dark-gray">NT$1,580</span>
         </li>
-        <li class="list-unstyled col-lg-4 col-12">
+        <li class="list-unstyled col-lg-4 col-12 transform">
           <a href="#" class="display-img">
             <img src="../assets/image/index/body.png" alt="" class="d-block w-100">
           </a>
@@ -102,18 +102,25 @@
           <span class="me-4 me-md-8">NT$1,380</span><span
             class="text-decoration-line-through text-dark-gray">NT$1,580</span>
         </li>
-        <li class="list-unstyled col-lg-4 col-12">
-          <a
-            class="position-relative display-img display-img-03 mb-8 display-img-mask d-flex justify-content-center align-items-center"
+        <li class="list-unstyled col-lg-4 col-12 transform">
+          <div class="position-relative">
+            <a
             href="#"
             >
           <img src="../assets/image/index/cider.png" alt="" class="d-block w-100">
-          <p class="mask-text">Sold out</p>  
-        </a>
+        </a>  
+        <div class="text-white d-flex align-items-center justify-content-center position-absolute top-0 start-0 bg-dark w-100 h-100 opacity-50 soldOut">
+          <h4>Sold out</h4>
+        </div>
+        </div>
+
+         
+        
           <h3 class="fs-4 fw-bold">Poppy & Barley</h3>
           <p class="mb-4 mb-md-16">Jo Malone</p>
           <span class="me-4 me-md-8">NT$1,380</span><span
             class="text-decoration-line-through text-dark-gray">NT$1,580</span>
+
         </li>
       </ul>
     </div>
