@@ -29,6 +29,11 @@ $base-path: "/vite/assets/";
   padding: 13px 109px 13px 109px;
 }
 
+.showButton:hover {
+  background-color: #000000;
+  border: #000000;
+}
+
 .content-1 {
   width: 350px;
 }
@@ -78,6 +83,12 @@ $base-path: "/vite/assets/";
     padding: 13px 40px 13px 40px;
     line-height: 30px;
   }
+}
+
+.introButton:hover {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff !important;
 }
 
 .intro {
